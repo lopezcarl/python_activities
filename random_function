@@ -1,0 +1,6 @@
+import random
+colors = ["Red","BLue", "Yellow", "Purple"]
+
+
+print("Random Range",random.randrange(1,10,2))
+print("Random choice in list:",random.choice(colors))
